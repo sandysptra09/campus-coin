@@ -96,6 +96,16 @@
   --sidebar-accent-foreground: oklch(0.21 0.006 285.885);
   --sidebar-border: oklch(0.92 0.004 286.32);
   --sidebar-ring: oklch(0.705 0.015 286.067);
+
+  /* Font sizes */
+  --text-xs: 0.625rem;    /* 10px */
+  --text-sm: 0.812rem;    /* 13px */
+  --text-base: 1rem;      /* 16px */
+  --text-md: 1.250rem;    /* 20px */
+  --text-lg: 1.562rem;    /* 25px */
+  --text-xl: 1.938rem;    /* 31px */
+  --text-2xl: 2.438rem;   /* 39px */
+  --text-3xl: 3.062rem;   /* 49px */
 }
 
 .dark {
