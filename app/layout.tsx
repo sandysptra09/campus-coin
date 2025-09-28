@@ -10,6 +10,9 @@ const quicksand = Quicksand({
 export const metadata: Metadata = {
   title: "Campus Coin",
   description: "Empowering students, building future.",
+  icons: {
+    icon: '/favicon.ico', 
+  },
 };
 
 export default function RootLayout({
