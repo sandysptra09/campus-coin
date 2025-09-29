@@ -1,5 +1,6 @@
 import React from "react";
 import CampusCoinLogo from "@/components/custom/logo/campus-coin-logo";
+import CamusCoinBanner from "@/components/custom/banners/camus-coin-banner";
 
 export default function AuthLayout({
   children,
@@ -19,11 +20,7 @@ export default function AuthLayout({
         </div>
       </div>
       <div className="bg-muted relative hidden lg:block">
-        <img
-          src="https://ui.shadcn.com/placeholder.svg"
-          alt="Auth Banner"
-          className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
-        />
+        <CamusCoinBanner size={600} />
       </div>
     </div>
   )
