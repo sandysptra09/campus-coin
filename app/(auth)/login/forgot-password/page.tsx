@@ -1,16 +1,16 @@
-"use client";
+'use client';
 
-import React from "react";
+import React from 'react'
 
-import VerifyOtpEmailForm from "@/components/custom/forms/verify-otp-email-form";
-import CampusCoinLogo from "@/components/custom/logo/campus-coin-logo";
+import ForgetPasswordForm from '@/components/custom/forms/forgot-password-form';
+import CampusCoinLogo from '@/components/custom/logo/campus-coin-logo';
 
-export default function VerifyOtpPage({
+export default function ForgetPasswordPage({
     params,
-    searchParams,
+    searchParams
 }: {
-    params: Promise<{ slug: string }>;
-    searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+    params: Promise<{ slug: string }>
+    searchParams: Promise<{ [key: string]: string | string[] | undefined }>
 }) {
     return (
         <div className="grid min-h-svh lg:grid-cols-2">
@@ -20,7 +20,7 @@ export default function VerifyOtpPage({
                 </div>
                 <div className="flex flex-1 items-center justify-center">
                     <div className="w-full max-w-xs">
-                        <VerifyOtpEmailForm />
+                        <ForgetPasswordForm />
                     </div>
                 </div>
             </div>
@@ -32,5 +32,5 @@ export default function VerifyOtpPage({
                 />
             </div>
         </div>
-    );
+    )
 }
