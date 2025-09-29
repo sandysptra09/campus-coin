@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 import { Form } from "@heroui/react";
-import TextField from "../input/text-field";
-import PasswordField from "../input/password-field";
+import TextField from "../inputs/text-field";
+import PasswordField from "../inputs/password-field";
 import { Button } from "@/components/ui/button";
 
 

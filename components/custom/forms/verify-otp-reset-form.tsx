@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import { Form } from "@heroui/react";
 import { Button } from "@/components/ui/button";
-import OtpField from "../input/otp-field";
+import OtpField from "../inputs/otp-field";
 
 export default function VerifyOtpResetForm() {
     return (

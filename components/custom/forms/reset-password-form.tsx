@@ -1,5 +1,5 @@
 import { Form } from "@heroui/react";
-import PasswordField from "../input/password-field";
+import PasswordField from "../inputs/password-field";
 import { Button } from "@/components/ui/button";
 
 

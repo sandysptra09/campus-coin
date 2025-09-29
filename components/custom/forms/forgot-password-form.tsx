@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import { Form } from "@heroui/react";
-import TextField from "../input/text-field";
+import TextField from "../inputs/text-field";
 import { Button } from "@/components/ui/button";
 
 export default function ForgetPasswordForm() {
