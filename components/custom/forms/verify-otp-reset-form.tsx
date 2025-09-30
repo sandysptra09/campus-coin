@@ -4,13 +4,13 @@ import { Form } from "@heroui/react";
 import { Button } from "@/components/ui/button";
 import OtpField from "../inputs/otp-field";
 
-export default function VerifyOtpEmailForm() {
+export default function VerifyOtpResetForm() {
     return (
         <Form className="w-full flex flex-col gap-6">
             <div className="flex flex-col items-center gap-2 text-center">
-                <h1 className="text-xl font-bold">Verify Your Email</h1>
+                <h1 className="text-xl font-bold">Verify Reset Code</h1>
                 <p className="text-muted-foreground text-sm text-balance font-medium ">
-                    We have sent an OTP code to your university email address. Enter the code below to activate your account.
+                    We have sent an OTP code to your university email address. Enter the code below to continue resetting your password.
                 </p>
             </div>
             <div className="w-full grid gap-6">
