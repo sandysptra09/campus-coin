@@ -4,7 +4,7 @@ interface BannerProps {
     size?: number;
 }
 
-export default function CamusCoinBanner({ size = 200 }: BannerProps) {
+export default function CampusCoinBanner({ size = 200 }: BannerProps) {
     return (
         <Image
             src="/assets/images/campus-coin-banner.png"

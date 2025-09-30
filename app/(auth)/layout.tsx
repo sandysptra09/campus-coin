@@ -1,6 +1,6 @@
 import React from "react";
 import CampusCoinLogo from "@/components/custom/logo/campus-coin-logo";
-import CamusCoinBanner from "@/components/custom/banners/camus-coin-banner";
+import CampusCoinBanner from "@/components/custom/banners/camus-coin-banner";
 
 export default function AuthLayout({
   children,
@@ -20,7 +20,7 @@ export default function AuthLayout({
         </div>
       </div>
       <div className="bg-muted relative hidden lg:block">
-        <CamusCoinBanner size={600} />
+        <CampusCoinBanner size={600} />
       </div>
     </div>
   )
