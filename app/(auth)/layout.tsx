@@ -1,6 +1,6 @@
 import React from "react";
 import CampusCoinLogo from "@/components/custom/logo/campus-coin-logo";
-import CampusCoinBanner from "@/components/custom/banners/camus-coin-banner";
+import CampusCoinBanner from "@/components/custom/banners/campus-coin-banner";
 
 export default function AuthLayout({
   children,
