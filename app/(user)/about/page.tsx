@@ -2,7 +2,7 @@ import React from "react";
 
 import HeroChallenge from "@/components/custom/sections/about/hero-challenge";
 import Education from "@/components/custom/sections/about/education";
-import VissionMission from "@/components/custom/sections/about/vission-mission";
+import VisionMission from "@/components/custom/sections/about/vision-mission";
 import HowItWorks from "@/components/custom/sections/about/how-it-works";
 import Benefits from "@/components/custom/sections/about/benefits";
 import FAQ from "@/components/custom/sections/about/faq";
@@ -19,7 +19,7 @@ export default function AboutPage({
         <main className="w-full min-h-screen">
             <HeroChallenge />
             <Education />
-            <VissionMission />
+            <VisionMission />
             <HowItWorks />
             <Benefits />
             <FAQ />
