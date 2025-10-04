@@ -5,7 +5,7 @@ export default function VisionMissionCard() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-[90%] md:w-[80%]">
             <Card shadow="md" className="p-6">
                 <CardBody className="flex flex-col items-center text-center">
-                    <div className="w-16 h-16 flex items-center justify-center rounded-full bg-yellow-100 text-2xl mb-4">
+                    <div className="w-16 h-16 flex items-center justify-center rounded-full bg-[#FDFBE9] text-2xl mb-4">
                         🎯
                     </div>
                     <h3 className="text-[29px] font-medium text-primary">

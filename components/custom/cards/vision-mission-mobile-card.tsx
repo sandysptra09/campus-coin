@@ -5,7 +5,7 @@ export default function VisionMissionCardMobile() {
         <div className="grid grid-cols-1 gap-6 mt-6">
             <Card shadow="sm" className="p-6">
                 <CardBody className="flex flex-col items-center text-center">
-                    <div className="w-14 h-14 flex items-center justify-center rounded-full bg-yellow-100 text-xl mb-3">
+                    <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[#FDFBE9] text-xl mb-3">
                         🎯
                     </div>
                     <h3 className="text-lg font-medium text-primary">VISION</h3>
