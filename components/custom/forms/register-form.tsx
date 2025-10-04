@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Form } from "@heroui/react";
 import TextField from "../input/text-field";
 import PasswordField from "../input/password-field";
+import NumberField from "../input/number-field";
 import { Button } from "@/components/ui/button";
 
 
@@ -17,7 +18,8 @@ export default function RegisterForm() {
             </div>
             <div className="w-full grid gap-4">
                 <TextField name="fullname" label="Full Name" placeholder="Enter your name" type="text" required />
-                <TextField name="nim" label="Student ID" placeholder="Enter your student ID" type="number" required />
+                <NumberField
+                    name="nim" label="Student ID" placeholder="Enter your student ID" required />
                 <TextField name="university_email" label="University Email" placeholder="Enter your university email" type="email" required />
                 <PasswordField name="password" label="Password" placeholder="Enter your password" type="password" required />
                 <PasswordField name="confirm_password" label="Confirm Password" placeholder="Confirm your password" type="password" required />
