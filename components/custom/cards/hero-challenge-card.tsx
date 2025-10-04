@@ -14,7 +14,7 @@ export default function HeroChallengeCards() {
                 <Card key={i} shadow="sm" className="flex items-center justify-center">
                     <CardBody className="flex flex-col items-center justify-center text-center p-6">
                         <span className="text-3xl mb-2">{item.icon}</span>
-                        <p className="text-gray-700 font-medium text-base leading-snug">
+                        <p className="text-secondary font-medium text-base leading-snug">
                             {item.text}
                         </p>
                     </CardBody>
