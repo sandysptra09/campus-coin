@@ -13,23 +13,33 @@ import {
 } from "@heroui/react";
 import CampusCoinLogo from "../logo/campus-coin-logo";
 import React from "react";
+import { usePathname } from "next/navigation";
 
 export default function CampusCoinNavbar() {
+  const pathname = usePathname();
+  console.log(pathname)
+
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    "Home",
-    "About",
-    "Event",
-    "Redeem Store",
-    "Knowledge Sharing",
+    'Home',
+    'About',
+    'Event',
+    'Redeem Store',
+    'Knowledge Sharing',
   ];
+
+  const hiddenRoutes = ['/login', '/register'];
+
+  if (hiddenRoutes.includes(pathname)) {
+    return null;
+  }
 
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent>
         <NavbarMenuToggle
-          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
           className="sm:hidden cursor-pointer"
         />
         <NavbarBrand>
