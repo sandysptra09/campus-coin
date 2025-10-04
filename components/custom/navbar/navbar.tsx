@@ -17,7 +17,6 @@ import { usePathname } from "next/navigation";
 
 export default function CampusCoinNavbar() {
   const pathname = usePathname();
-  console.log(pathname)
 
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
