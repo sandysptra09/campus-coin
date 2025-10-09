@@ -11,38 +11,14 @@ import {
 } from "@/components/ui/carousel";
 import RewardCard from "../sections/redeem/reward-card";
 import Link from "next/link";
+import { RewardCarouselProps } from "@/interfaces/reward-carousel";
 
-const items = [
-  {
-    title: "IxDF UI/UX Workshop",
-    meta: "Workshop | Online | Professional",
-    coins: 25,
-  },
-  {
-    title: "101 Softskills Webinar",
-    meta: "Webinar | Online | Professional",
-    coins: 20,
-  },
-  {
-    title: "Coursera Subscription Discount",
-    meta: "Certification | Professional",
-    coins: 75,
-  },
-  {
-    title: "Microsoft Certificate Discount",
-    meta: "Certification | Professional",
-    coins: 100,
-  },
-  {
-    title: "IBM Certificate Discount",
-    meta: "Certification | Professional",
-    coins: 250,
-  },
-];
-
-export default function RewardsCarousel() {
+export default function RewardsCarousel({ item, title }: RewardCarouselProps) {
   return (
     <Carousel className="w-full">
+      <p className="text-md sm:text-lg xl:text-[29px] mb-5 text-primary text-medium">
+        {title}
+      </p>
       <div className="flex justify-between items-center mb-3">
         <div className="flex gap-3">
           <CarouselPrevious className="static -translate-y-0 border shadow-sm w-10 h-10 hover:bg-gray-100" />
@@ -53,8 +29,8 @@ export default function RewardsCarousel() {
         </Link>
       </div>
       <CarouselContent>
-        {items.map((e, index) => (
-          <CarouselItem key={index} className="basis-1/4">
+        {item.map((e, index) => (
+          <CarouselItem key={index} className="sm:basis-1/2 lg:basis-1/4">
             <RewardCard
               key={e.title}
               title={e.title}

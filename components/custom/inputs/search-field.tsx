@@ -3,13 +3,13 @@ import React from 'react'
 import { Input } from '@heroui/react'
 import { SearchIcon } from '@/public/assets/icons/search-icon'
 
-export default function SearchField() {
+export default function SearchField(props: { placeholder?: string }) {
     return (
         <div className="w-full md:w-[300px] lg:w-[450px]">
             <Input
                 type='search'
                 isClearable
-                placeholder="Search Event..."
+                placeholder={props.placeholder ?? "Search Event..."}
                 radius="full"
                 size='lg'
                 variant="flat"
