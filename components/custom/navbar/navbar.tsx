@@ -48,27 +48,27 @@ export default function CampusCoinNavbar() {
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/">
             Home
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link aria-current="page" href="#">
+          <Link aria-current="page" href="/about">
             About
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/event">
             Event
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/redeem">
             Redeem Store
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/forum">
             Knowledge Sharing
           </Link>
         </NavbarItem>
