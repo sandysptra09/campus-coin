@@ -1,5 +1,5 @@
 import Hero from "@/components/custom/sections/redeem/hero"
-import RewardsCarousel from "@/components/custom/sections/redeem/rewards-carousel"
+import RewardsCarousel from "@/components/custom/carousels/reward-carousel"
 import TopProduct from "@/components/custom/sections/redeem/top-product"
 
 export default function Page() {
