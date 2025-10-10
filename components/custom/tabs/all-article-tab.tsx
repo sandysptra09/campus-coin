@@ -9,7 +9,7 @@ export default function AllArticleTab() {
             aria-label="Article categories"
             variant="underlined"
             size='lg'
-            className='w-xl flex md:flex-col'
+            className='w-full md:w-xl flex md:flex-col'
             classNames={{
                 tabList: "w-full relative rounded-none p-0 border-b border-divider border-[#B7B7B7]",
                 tab: "text-md md:text-[25px] font-semibold tracking-wide data-[selected=true]:text-primary transition",
