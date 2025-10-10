@@ -2,7 +2,7 @@
 
 import RewardsCarousel from "@/components/custom/carousels/reward-carousel";
 import SearchField from "@/components/custom/inputs/search-field";
-import { Button, Input } from "@heroui/react";
+import { Button } from "@heroui/react";
 import React from "react";
 import { MdOutlineTune } from "react-icons/md";
 

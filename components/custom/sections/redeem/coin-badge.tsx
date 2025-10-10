@@ -3,9 +3,11 @@ import { cn } from "@/lib/utils";
 export function CoinBadge({
   value,
   className,
+  size,
 }: {
   value: string | number;
   className?: string;
+  size?: number
 }) {
   return (
     <div
@@ -15,9 +17,9 @@ export function CoinBadge({
       )}
     >
       <svg
-        width="23"
-        height="23"
-        viewBox="0 0 23 23"
+        width={size && '30'}
+        height={size && '30'}
+        viewBox="0 0 30 30"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >

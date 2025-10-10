@@ -1,4 +1,5 @@
 export interface RewardCardItem {
+    id: number,
     title: string,
     meta: string,
     coins: number
