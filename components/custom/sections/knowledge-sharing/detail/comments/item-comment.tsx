@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import { Heart, MessageCircle } from 'lucide-react'
-import { Button, Badge } from '@heroui/react'
+import { Button } from '@heroui/react'
 import AuthorInfoAvatar from '../avatars/author-info-avatar'
 
 type ItemCommentProps = {

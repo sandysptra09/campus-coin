@@ -17,7 +17,6 @@ export default function ArticleComment() {
             <div className="flex flex-col gap-2 mt-4">
                 <UserInfoAvatar
                     name="Hercule Poirot"
-                    date=""
                     avatarUrl="https://i.pravatar.cc/100?img=11"
                 />
                 <CommentField placeholder="Share your thoughts..." />
