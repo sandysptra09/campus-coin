@@ -17,7 +17,7 @@ export default function VerifyOtpResetForm() {
                 <OtpField name="otp" placeholder="..." required />
                 <Button type="submit" className="font-semibold text-md hover:bg-[#FFE776] active:bg-[#D8BC36]">Verify OTP</Button>
             </div>
-            <p className="justify-center text-sm text-black">
+            <p className="mx-auto text-sm text-black">
                 Didn&apos;t receive the code?{" "}
                 <Link href="/#" className="text-[#F2D443] hover:underline">
                     Resend it.

@@ -18,7 +18,7 @@ export default function LoginForm() {
             <div className="w-full grid gap-6">
                 <TextField name="university_email" label="University Email" placeholder="Enter your university email" type="email" required />
                 <PasswordField name="password" label="Password" placeholder="Enter your password" type="password" required />
-                <p className="text-end text-sm text-black">
+                <p className="text-center text-sm text-black">
                     Forgot Password?{" "}
                     <Link href="/login/forgot-password" className="text-[#F2D443] hover:underline">
                         Click Here
@@ -26,7 +26,7 @@ export default function LoginForm() {
                 </p>
                 <Button type="submit" className="font-semibold text-md hover:bg-[#FFE776] active:bg-[#D8BC36]">Login</Button>
             </div>
-            <p className="justify-center text-sm text-black">
+            <p className="mx-auto text-sm text-black">
                 Don’t have an account?{" "}
                 <Link href="/register" className="text-[#F2D443] hover:underline">
                     Sign up

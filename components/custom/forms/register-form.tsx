@@ -23,7 +23,7 @@ export default function RegisterForm() {
                 <PasswordField name="confirm_password" label="Confirm Password" placeholder="Confirm your password" type="password" required />
                 <Button type="submit" className="font-semibold text-md hover:bg-[#FFE776] active:bg-[#D8BC36]">Create Account</Button>
             </div>
-            <p className="justify-center text-sm text-black">
+            <p className="mx-auto text-sm text-black">
                 Already have an account?{" "}
                 <Link href="/login" className="text-[#F2D443] hover:underline">
                     Sign in

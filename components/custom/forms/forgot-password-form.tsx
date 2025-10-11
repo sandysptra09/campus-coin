@@ -17,7 +17,7 @@ export default function ForgetPasswordForm() {
                 <TextField name="university_email" label="University Email" placeholder="Enter your university email" type="email" required />
                 <Button type="submit" className="font-semibold text-md hover:bg-[#FFE776] active:bg-[#D8BC36]">Send Reset Code</Button>
             </div>
-            <p className="justify-center text-sm text-black">
+            <p className="mx-auto text-sm text-black">
                 Remember Password?{" "}
                 <Link href="/login" className="text-[#F2D443] hover:underline">
                     Sign in
