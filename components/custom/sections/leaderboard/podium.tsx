@@ -17,7 +17,6 @@ function PodiumColumn({
   major: string;
   height?: string;
 }) {
-  const isCenter = place === "center";
   const pedestalClasses = "rounded-t-md bg-gradient-to-b from-muted to-card w-full " + height;
 
   return (
