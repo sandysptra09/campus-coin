@@ -3,7 +3,6 @@ import { AlarmClock } from "lucide-react";
 import { IoTrophy } from "react-icons/io5";
 
 function PodiumColumn({
-  place,
   name,
   coins,
   rank,

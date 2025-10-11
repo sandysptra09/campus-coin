@@ -4,6 +4,7 @@ import React from "react";
 
 import VerifyOtpEmailForm from "@/components/custom/forms/verify-otp-email-form";
 import CampusCoinLogo from "@/components/custom/logo/campus-coin-logo";
+import { Image } from "@heroui/react";
 
 export default function VerifyOtpPage({}: {
     params: Promise<{ slug: string }>;
@@ -22,7 +23,7 @@ export default function VerifyOtpPage({}: {
                 </div>
             </div>
             <div className="bg-muted relative hidden lg:block">
-                <img
+                <Image
                     src="https://ui.shadcn.com/placeholder.svg"
                     alt="Image"
                     className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"

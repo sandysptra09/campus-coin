@@ -24,13 +24,11 @@ export default function ExchangeInput() {
 
   const [submitted, setSubmitted] = React.useState(null);
 
-  // eslint-disable-next-line no-use-before-define
-  const onSubmit = (e: any) => {
+  const onSubmit = (e: any) => { // eslint-disable-line no-use-before-define
     e.preventDefault();
     const data = Object.fromEntries(new FormData(e.currentTarget));
 
-    // eslint-disable-next-line no-use-before-define
-    setSubmitted(data as any);
+    setSubmitted(data as any); // eslint-disable-line no-use-before-define
   };
 
   const certificateTypes = [
