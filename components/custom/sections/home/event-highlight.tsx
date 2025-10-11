@@ -6,7 +6,7 @@ import EventHighlightCarousel from '../../carousels/event-highlight-carousel';
 
 export default function EventHighlight() {
     return (
-        <section className='max-w-6xl mx-auto px-6 md:px-12 lg:px-20 py-20'>
+        <section className='max-w-6xl mx-auto px-6 md:px-12 lg:px-20'>
             <div className='text-center'>
                 <p className="text-md text-primary md:text-[29px] uppercase font-medium">
                     Event Highlight
