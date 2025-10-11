@@ -7,7 +7,7 @@ import HeroChallengeCard from '../../cards/hero-challenge-card'
 
 export default function HeroChallenge() {
     return (
-        <section className='max-w-6xl mx-auto px-6 md:px-12 lg:px-20 py-20 grid grid-cols-1 lg:grid-cols-2 gap-16 items-start'>
+        <section className='max-w-6xl mx-auto px-6 md:px-12 lg:px-20 pt-20 pb-10 grid grid-cols-1 lg:grid-cols-2 gap-16 items-start'>
             <div>
                 <p className="text-md text-primary md:text-[29px] font-medium uppercase tracking-wide">
                     The Challenge We Address
