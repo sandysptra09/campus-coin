@@ -42,7 +42,7 @@ export default function FAQ() {
                         Frequently Asked <br /> Questions
                     </h2>
                     <p className="mt-4 text-secondary text-base leading-[25px]">
-                        Here's a quick answer to help you understand more about CampusCoin.
+                        Here&apos;s a quick answer to help you understand more about CampusCoin.
                     </p>
                 </div>
 

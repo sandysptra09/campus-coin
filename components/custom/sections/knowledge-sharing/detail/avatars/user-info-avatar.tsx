@@ -4,13 +4,11 @@ import { Avatar } from '@heroui/react'
 
 type UserInfoAvatarProps = {
     name: string;
-    date: string;
     avatarUrl: string;
 }
 
 export default function UserInfoAvatar({
     name,
-    date,
     avatarUrl = 'https://i.pravatar.cc/100?img=3'
 }: UserInfoAvatarProps) {
     return (

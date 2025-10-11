@@ -29,7 +29,7 @@ export default function VisionMissionCardMobile() {
                         Supporting SDG 4 (Quality Education) by providing access to inclusive
                         learning experiences, as well as supporting SDG 8 (Decent Work & Economic
                         Growth) through motivation, networking, and career opportunities. In addition,
-                        providing a transparent and fair reward system for each student's contribution,
+                        providing a transparent and fair reward system for each student&apos;s contribution,
                         while building a positive, collaborative, and innovative campus ecosystem.
                     </p>
                 </CardBody>
