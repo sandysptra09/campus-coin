@@ -2,10 +2,7 @@
 
 import ResetPasswordForm from '@/components/custom/forms/reset-password-form';
 
-export default function ResetPasswordPage({
-    params,
-    searchParams
-}: {
+export default function ResetPasswordPage({}: {
     params: Promise<{ slug: string }>
     searchParams: Promise<{ [key: string]: string | string[] | undefined }>
 }) {

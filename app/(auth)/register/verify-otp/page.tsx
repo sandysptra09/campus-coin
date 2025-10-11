@@ -5,10 +5,7 @@ import React from "react";
 import VerifyOtpEmailForm from "@/components/custom/forms/verify-otp-email-form";
 import CampusCoinLogo from "@/components/custom/logo/campus-coin-logo";
 
-export default function VerifyOtpPage({
-    params,
-    searchParams,
-}: {
+export default function VerifyOtpPage({}: {
     params: Promise<{ slug: string }>;
     searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }) {

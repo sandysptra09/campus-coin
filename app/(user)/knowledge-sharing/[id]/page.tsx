@@ -10,10 +10,7 @@ import ArticleContent from '@/components/custom/sections/knowledge-sharing/detai
 import ArticleComment from '@/components/custom/sections/knowledge-sharing/detail/section/article-comment';
 import PopularArticlesSidebar from '@/components/custom/sections/knowledge-sharing/detail/cards/popular-article-card';
 
-export default function DetailKnowledgeSharingPage({
-    params,
-    searchParams
-}: {
+export default function DetailKnowledgeSharingPage({}: {
     params: Promise<{ slug: string }>
     searchParams: Promise<{ [key: string]: string | string[] | undefined }>
 }) {

@@ -2,10 +2,7 @@
 
 import RegisterForm from '@/components/custom/forms/register-form';
 
-export default function RegisterPage({
-  params,
-  searchParams
-}: {
+export default function RegisterPage({}: {
   params: Promise<{ slug: string }>
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>
 }) {

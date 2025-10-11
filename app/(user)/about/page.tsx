@@ -8,10 +8,7 @@ import Benefits from "@/components/custom/sections/about/benefits";
 import FAQ from "@/components/custom/sections/about/faq";
 import CTABanner from "@/components/custom/sections/about/cta-banner";
 
-export default function AboutPage({
-    params,
-    searchParams
-}: {
+export default function AboutPage({}: {
     params: Promise<{ slug: string }>
     searchParams: Promise<{ [key: string]: string | string[] | undefined }>
 }) {

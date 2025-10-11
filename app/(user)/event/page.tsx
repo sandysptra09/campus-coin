@@ -7,10 +7,7 @@ import AllEvent from "@/components/custom/sections/event/all-event";
 import FeaturedEvent from "@/components/custom/sections/event/featured-event";
 import Testimonial from "@/components/custom/sections/event/testimonial";
 
-export default function EventPage({
-    params,
-    searchParams
-}: {
+export default function EventPage({}: {
     params: Promise<{ slug: string }>
     searchParams: Promise<{ [key: string]: string | string[] | undefined }>
 }) {
