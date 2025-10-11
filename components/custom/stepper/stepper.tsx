@@ -248,7 +248,8 @@ const RowSteps = React.forwardRef<HTMLButtonElement, RowStepsProps>(
                       aria-hidden="true"
                       className="pointer-events-none absolute right-0 w-10 flex-none items-center"
                       style={{
-                        // @ts-expect-error
+                        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                        // @ts-ignore
                         "--idx": stepIdx,
                       }}
                     >
