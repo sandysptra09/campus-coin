@@ -1,7 +1,6 @@
 "use client";
 
 import { Avatar, Card, CardBody, Chip, Progress } from "@heroui/react";
-import { Image } from "@heroui/react";
 import React from "react";
 
 export default function UserScoreCard() {
@@ -17,7 +16,7 @@ export default function UserScoreCard() {
               <p className="text-sm">johndoe@ace.id</p>
             </div>
             <Chip radius="full" color="primary">
-              You're here
+              You&apos;re here
             </Chip>
           </div>
           <div className="flex flex-col gap-2">
