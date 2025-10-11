@@ -24,12 +24,15 @@ export default function ExchangeInput() {
 
   const [submitted, setSubmitted] = React.useState(null);
 
-  const onSubmit = (e: any) => { /* eslint-disable  @typescript-eslint/no-explicit-any */
+  /* eslint-disable @typescript-eslint/no-explicit-any */
+  const onSubmit = (e: any) => {
     e.preventDefault();
     const data = Object.fromEntries(new FormData(e.currentTarget));
 
-    setSubmitted(data as any); /* eslint-disable  @typescript-eslint/no-explicit-any */
+    
+    setSubmitted(data as any);
   };
+  /* eslint-enable @typescript-eslint/no-explicit-any */
 
   const certificateTypes = [
     {
