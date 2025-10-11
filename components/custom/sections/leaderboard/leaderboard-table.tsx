@@ -5,7 +5,7 @@ import { Avatar } from "@heroui/react"
 export function LeaderboardTable({ items }: LeaderboardTableProps) {
   return (
     <div className="mt-20">
-      <div className="hidden md:grid grid-cols-[80px_1fr_1fr_120px] text-sm text-muted-foreground px-5 mb-2">
+      <div className="hidden md:grid grid-cols-[80px_1fr_1fr_120px] text-sm md:text-base text-muted-foreground px-5 mb-2">
         <div>Rank</div>
         <div>Name</div>
         <div>Major</div>
