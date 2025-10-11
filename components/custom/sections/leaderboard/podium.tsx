@@ -21,7 +21,7 @@ function PodiumColumn({
   const pedestalClasses = "rounded-t-md bg-gradient-to-b from-muted to-card w-full " + height;
 
   return (
-    <div className={`flex w-full flex-col items-center mt-28 ${(rank === 1) ? '-translate-y-20' : ''}`}>
+    <div className={`flex w-full flex-col items-center mt-28 ${(rank === 1) ? 'md:-translate-y-20' : ''}`}>
       <div className="rounded-md border bg-card p-2">
         <div className="h-24 w-24 bg-muted rounded-md" aria-hidden />
       </div>
@@ -49,7 +49,7 @@ function PodiumColumn({
 export function Podium({ items }: LeaderboardTableProps) {
   return (
     <div className="mx-auto max-w-5xl">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-end">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 items-end">
         {items.map((e, index) => (
           <PodiumColumn
             key={index}
@@ -62,7 +62,7 @@ export function Podium({ items }: LeaderboardTableProps) {
           />
         ))}
       </div>
-      <div className="mt-6 flex items-center justify-center gap-2 text-muted-foreground">
+      <div className="mt-10 flex items-center justify-center gap-2 text-muted-foreground">
         <AlarmClock size={14} aria-hidden />
         <span>Ends in</span>
         <span className="font-medium">10d 23h 59m 29s</span>
