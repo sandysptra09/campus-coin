@@ -13,18 +13,16 @@ import React from "react";
 import { FaCalendar, FaFolder } from "react-icons/fa6";
 
 export default function ExchangeInput() {
-  // eslint-disable-next-line no-use-before-define
+  /* eslint-disable @typescript-eslint/no-explicit-any */
   const handleFileChange = (event: any) => {
     const selectedFile = event.target.files[0];
     if (selectedFile) {
-      console.log("Selected file:", selectedFile.name);
-      // Perform further actions with the selected file, e.g., upload
     }
   };
 
   const [submitted, setSubmitted] = React.useState(null);
 
-  /* eslint-disable @typescript-eslint/no-explicit-any */
+  
   const onSubmit = (e: any) => {
     e.preventDefault();
     const data = Object.fromEntries(new FormData(e.currentTarget));
