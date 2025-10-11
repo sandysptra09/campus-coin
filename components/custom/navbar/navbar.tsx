@@ -21,11 +21,26 @@ export default function CampusCoinNavbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    'Home',
-    'About',
-    'Event',
-    'Redeem Store',
-    'Knowledge Sharing',
+    {
+      title: 'Home',
+      url: '/'
+    },
+    {
+      title: 'About',
+      url: '/about'
+    },
+    {
+      title: 'Event',
+      url: '/event'
+    },
+    {
+      title: 'Redeem Store',
+      url: '/redeem'
+    },
+    {
+      title: 'Knowledge Sharing',
+      url: '/knowledge-sharing'
+    },
   ];
 
   const hiddenRoutes = ['/login', '/register'];
@@ -91,10 +106,10 @@ export default function CampusCoinNavbar() {
             <Link
               className="w-full"
               color="foreground"
-              href="#"
+              href={item.url}
               size="lg"
             >
-              {item}
+              {item.title}
             </Link>
           </NavbarMenuItem>
         ))}
