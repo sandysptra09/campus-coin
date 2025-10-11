@@ -1,6 +1,5 @@
 import LeaderboardTabs from "@/components/custom/sections/leaderboard/leaderboard-tabs";
 import UserScoreCard from "@/components/custom/sections/leaderboard/user-score-card";
-import { Tabs } from "@heroui/react";
 import React from "react";
 
 export default function LeaderboardPage() {
