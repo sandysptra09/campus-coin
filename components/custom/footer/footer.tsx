@@ -32,13 +32,13 @@ export default function CampusCoinFooter() {
             <p className="font-semibold">Program</p>
             <p className="font-semibold">Support / Legal</p>
             <div></div>
-            <Link href={"/events"}>Events</Link>
+            <Link href={"/event"}>Events</Link>
             <Link href={"/faq"}>FAQ</Link>
             <div></div>
             <Link href={"/redeem"}>Redeem Store</Link>
             <Link href={"/terms"}>Terms & Condition</Link>
             <div></div>
-            <Link href={"/forum"}>Knowledge Sharing</Link>
+            <Link href={"/knowledge-sharing"}>Knowledge Sharing</Link>
             <Link href={"/privacy"}>Privacy</Link>
           </div>
         </div>
