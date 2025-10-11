@@ -7,6 +7,7 @@ import AuthorInfoAvatar from '@/components/custom/sections/knowledge-sharing/det
 import ArticleImage from '@/components/custom/sections/knowledge-sharing/detail/images/article-image';
 import ArticleMeta from '@/components/custom/sections/knowledge-sharing/detail/metas/article-meta';
 import ArticleContent from '@/components/custom/sections/knowledge-sharing/detail/contents/article-content';
+import ArticleComment from '@/components/custom/sections/knowledge-sharing/detail/section/article-comment';
 import PopularArticlesSidebar from '@/components/custom/sections/knowledge-sharing/detail/cards/popular-article-card';
 
 export default function DetailKnowledgeSharingPage({
@@ -45,6 +46,7 @@ export default function DetailKnowledgeSharingPage({
                                 posuere cubilia curae; Curabitur tempus, lorem in varius lacinia, erat 
                                 urna consectetur nunc, nec eleifend velit risus non orci.</p>`}
                         />
+                        <ArticleComment />
                     </div>
                     <div className='lg:col-span-1'>
                         <PopularArticlesSidebar
