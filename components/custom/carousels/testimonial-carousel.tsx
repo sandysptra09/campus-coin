@@ -23,7 +23,7 @@ export default function TestimonialCarousel(props: { isButtonInside?: boolean, t
                     <CarouselNext className="static transform-none border shadow-sm w-8 h-8 rounded-full bg-white hover:bg-gray-100" />
                 </div>
             )}
-            <CarouselContent>
+            <CarouselContent className='px-2 py-2 md:p-4 md:px-2 '>
                 {[...Array(3)].map((_, i) => (
                     <CarouselItem key={i}>
                         <TestimonialCard buttonIsInside={props.isButtonInside} />
