@@ -35,7 +35,7 @@ const faqs = [
 
 export default function FAQ() {
     return (
-        <section className='max-w-6xl mx-auto px-6 md:px-12 lg:px-20 py-20'>
+        <section className='max-w-6xl mx-auto px-6 md:px-12 lg:px-20 py-10'>
             <div className="grid md:grid-cols-2 gap-4 md:gap-8">
                 <div>
                     <h2 className="text-xl md:text-[45px] font-bold text-secondary leading-snug">

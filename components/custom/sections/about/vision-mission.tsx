@@ -8,7 +8,7 @@ import VissionMissionCardMobile from '../../cards/vision-mission-mobile-card';
 
 export default function VisionMission() {
     return (
-        <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-20 pt-32 pb-40 relative">
+        <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-20 pt-32 pb-20 relative">
             <div className="block md:hidden">
                 <Card shadow="md" radius='lg' className="p-8 text-center">
                     <h2 className="text-xl text-secondary font-bold mt-2 leading-snug">
