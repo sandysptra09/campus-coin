@@ -37,6 +37,7 @@ export default function RewardsCarousel({ item, title }: RewardCarouselProps) {
               meta={e.meta}
               coins={e.coins}
               id={e.id}
+              image={e.image}
             />
           </CarouselItem>
         ))}

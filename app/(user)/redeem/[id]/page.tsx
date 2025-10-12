@@ -1,5 +1,5 @@
-import ProductDetail from "@/components/custom/sections/redeem/details/product-detail"
-import ReviewSection from "@/components/custom/sections/redeem/details/review-section"
+import ProductDetail from "@/components/custom/sections/redeem/details/product-detail";
+import ReviewSection from "@/components/custom/sections/redeem/details/review-section";
 
 export default function RedeemPage() {
   return (
@@ -10,5 +10,5 @@ export default function RedeemPage() {
         <ReviewSection />
       </main>
     </>
-  )
+  );
 }

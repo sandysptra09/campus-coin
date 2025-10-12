@@ -2,7 +2,8 @@ export interface RewardCardItem {
     id: number,
     title: string,
     meta: string,
-    coins: number
+    coins: number,
+    image: string,
 }
 
 export interface RewardCarouselProps {
