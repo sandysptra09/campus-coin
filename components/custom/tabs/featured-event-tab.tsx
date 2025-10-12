@@ -1,13 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import { Tabs, Tab } from '@heroui/react'
 import FeaturedEventCarousel from '../carousels/featured-event-carousel'
 
 export default function FeaturedEventTab() {
+    const [selectedKey, setSelectedKey] = useState<string>('popular')
+
     return (
         <div className='mt-4 flex flex-col justify-center items-center'>
             <Tabs
                 aria-label="Featured Event Tabs"
+                selectedKey={selectedKey}
+                onSelectionChange={(key) => setSelectedKey(key as string)}
                 variant="bordered"
                 radius="md"
                 size='md'
@@ -19,10 +23,10 @@ export default function FeaturedEventTab() {
                 }}
             >
                 <Tab key="popular" title="Popular">
-                    <FeaturedEventCarousel />
+                    <FeaturedEventCarousel type='popular' />
                 </Tab>
                 <Tab key="rewarding" title="Rewarding">
-                    <FeaturedEventCarousel />
+                    <FeaturedEventCarousel type='rewarding' />
                 </Tab>
             </Tabs>
         </div>

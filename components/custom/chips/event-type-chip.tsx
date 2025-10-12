@@ -12,7 +12,7 @@ export default function EventTypeChip({ children }: EventTypeChipProps) {
             size="sm"
             variant="solid"
             radius="full"
-            className='mt-1 md:mt-2'
+            className='mt-1 md:mt-2 capitalize'
             classNames={{
                 base: "bg-secondary text-white text-sm px-3 py-1",
             }}

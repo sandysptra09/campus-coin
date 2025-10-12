@@ -6,36 +6,50 @@ import LocationIcon from '@/public/assets/icons/location-icon'
 import CoinIcon from '@/public/assets/icons/coin-icon'
 import ViewDetailButton from '../buttons/view-detail-button'
 
-export default function EventCard() {
+interface EventCardProps {
+    event: {
+        id: string
+        nama_event: string
+        gambar: string
+        tipe_event: string
+        tanggal_mulai_event: string
+        jam: string
+        lokasi: string
+        total_koin: number
+    }
+}
+
+export default function EventCard({ event }: EventCardProps) {
     return (
         <Card
             shadow="sm"
             radius="lg">
             <Image
-                src="https://via.placeholder.com/400x200"
-                alt="Event Banner"
+                src={event.gambar}
+                alt={event.nama_event}
+                width={'100%'}
                 className="object-cover w-full h-[180px]"
             />
             <CardBody className='p-4 space-y-3'>
                 <div className="flex justify-between">
-                    <p className="font-semibold text-md text-secondary md:text-[25px]">Title of Event</p>
-                    <EventTypeChip>Event Type</EventTypeChip>
+                    <p className="font-semibold text-md text-secondary md:text-[25px]">{event.nama_event}</p>
+                    <EventTypeChip>{event.tipe_event}</EventTypeChip>
                 </div>
                 <p className="text-sm text-secondary font-medium">
-                    21 Sept 2025 | 09:00 WIB
+                    {event.tanggal_mulai_event} | {event.jam}
                 </p>
                 <div className="flex items-center gap-3 text-sm text-secondary font-medium">
                     <Tooltip content="Location">
                         <span className="flex items-center gap-1">
                             <LocationIcon />
-                            Location Name
+                            {event.lokasi}
                         </span>
                     </Tooltip>
 
                     <Tooltip content="Total Coins">
                         <span className="flex items-center gap-1">
                             <CoinIcon />
-                            Total Coins
+                            {event.total_koin}
                         </span>
                     </Tooltip>
                 </div>
