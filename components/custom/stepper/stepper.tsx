@@ -61,7 +61,7 @@ function CheckIcon(props: ComponentProps<"svg">) {
     <svg
       {...props}
       fill="none"
-      stroke="currentColor"
+      stroke="#ffffff"
       strokeWidth={2}
       viewBox="0 0 24 24"
     >
@@ -161,7 +161,7 @@ const RowSteps = React.forwardRef<HTMLButtonElement, RowStepsProps>(
     return (
       <nav
         aria-label="Progress"
-        className="-my-4 max-w-fit overflow-x-auto py-4"
+        className="-my-4 max-w-fit overflow-x-auto py-4 mx-auto"
       >
         <ol
           className={cn("flex flex-row flex-nowrap gap-x-3", colors, className)}

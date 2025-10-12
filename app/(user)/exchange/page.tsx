@@ -2,6 +2,7 @@
 
 import FAQ from "@/components/custom/sections/exchange/faq";
 import { Button, Image } from "@heroui/react";
+import Link from "next/link";
 import React from "react";
 
 export default function ExchangePage() {
@@ -15,7 +16,9 @@ export default function ExchangePage() {
             campus program? Turn them into coins and obtain exclusive item at
             CampusCoin to support your uni journey.
           </p>
-          <Button color="primary" size="md" className="text-md" >Exchange Now</Button>
+          <Link href="/exchange/form">
+            <Button color="primary" size="md" className="text-md w-full" >Exchange Now</Button>
+          </Link>
         </div>
         <div className="flex justify-center">
         <Image src={'/images/certificate.png'} width={500} alt={"certificate"} />
