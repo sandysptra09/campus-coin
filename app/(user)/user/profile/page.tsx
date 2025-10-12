@@ -3,6 +3,7 @@ import React from 'react'
 import Hero from '@/components/custom/sections/profile/hero'
 import Overview from '@/components/custom/sections/profile/overview'
 import MyEvent from '@/components/custom/sections/profile/my-event'
+import MyArticle from '@/components/custom/sections/profile/my-article'
 
 export default function ProfilePage({ }: {
   params: Promise<{ slug: string }>
@@ -15,9 +16,7 @@ export default function ProfilePage({ }: {
         <Overview />
         <MyEvent />
       </div>
-      <div className=''>
-
-      </div>
+      <MyArticle />
     </main>
   )
 }
