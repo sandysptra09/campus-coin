@@ -4,6 +4,7 @@ import Hero from '@/components/custom/sections/profile/hero'
 import Overview from '@/components/custom/sections/profile/overview'
 import MyEvent from '@/components/custom/sections/profile/my-event'
 import MyArticle from '@/components/custom/sections/profile/my-article'
+import MyReward from '@/components/custom/sections/profile/my-reward'
 
 export default function ProfilePage({ }: {
   params: Promise<{ slug: string }>
@@ -17,6 +18,7 @@ export default function ProfilePage({ }: {
         <MyEvent />
       </div>
       <MyArticle />
+      <MyReward />
     </main>
   )
 }
