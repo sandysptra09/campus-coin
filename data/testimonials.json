@@ -1,0 +1,74 @@
+[
+  {
+    "id": "T001",
+    "nama": "Rafi Pratama",
+    "foto": "/assets/images/testimonials/testimonial-1-rafi-pratama.png",
+    "jurusan": "D4 Teknologi Rekayasa Perangkat Lunak",
+    "universitas": "Insitut Pertanian Bogor",
+    "testimonial": "CampusCoin membuat saya lebih mudah diterima kerja di Google. Sangat direkomendasikan untuk mahasiswa yang aktif di kampus, seperti ikut organisasi, lomba, dan kegiatan lainnya."
+  },
+  {
+    "id": "T002",
+    "nama": "Nurul Fitriani",
+    "foto": "/assets/images/testimonials/testimonial-2-nurul-fitriani.png",
+    "jurusan": "S1 Pendidikan Administrasi Perkantoran",
+    "universitas": "Universitas Negeri Surabaya",
+    "testimonial": "Melalui CampusCoin, saya bisa ikut berbagai workshop dan kegiatan sosial. Pengalaman itu benar-benar membantu saya membangun kepercayaan diri dan meningkatkan kemampuan manajemen perkantoran."
+  },
+  {
+    "id": "T003",
+    "nama": "Ardian Nugroho",
+    "foto": "/assets/images/testimonials/testimonial-3-ardian-nugroho.png.png",
+    "jurusan": "D4 Manajemen Perkantoran Digital ",
+    "universitas": "Universitas Airlangga",
+    "testimonial": "Saya mendapatkan CampusCoin dari membagikan artikel dan membimbing junior. Sistem reward-nya bikin saya semangat untuk terus berkontribusi di komunitas mahasiswa."
+  },
+  {
+    "id": "T004",
+    "nama": "Nadia Permata Putri",
+    "foto": "/assets/images/testimonials/testimonial-4-nadia-permata-putri.png",
+    "jurusan": "S1 Desain Komunikasi Visual",
+    "universitas": "Institut Seni dan Desain Jakarta",
+    "testimonial": "CampusCoin memberi saya akses ke bootcamp desain yang sebelumnya tidak bisa saya ikuti. Sekarang saya bisa freelance dengan kemampuan dan pengalaman yang lebih baik."
+  },
+  {
+    "id": "T005",
+    "nama": "M. Fadhlan Rizqi",
+    "foto": "/assets/images/testimonials/testimonial-5-m-fadhlan-rizqi.png",
+    "jurusan": "S1 Teknik Informatika",
+    "universitas": "Telkom University",
+    "testimonial": "Saya suka bagaimana CampusCoin menghubungkan mahasiswa dengan kegiatan yang berdampak. Setiap acara yang saya ikuti tidak hanya memberi koin, tapi juga wawasan industri yang berharga."
+  },
+  {
+    "id": "T006",
+    "nama": "Ayu Maharani",
+    "foto": "/assets/images/testimonials/testimonial-6-ayu-maharani.png",
+    "jurusan": "S1 Psikologi",
+    "universitas": "Universitas Airlangga",
+    "testimonial": "Ikut kegiatan CampusCoin membuat kemampuan komunikasi dan kepemimpinan saya meningkat. Bagian terbaiknya, saya bisa menukar koin untuk reward yang bermanfaat bagi karier!"
+  },
+  {
+    "id": "T007",
+    "nama": "Kevin Aditya",
+    "foto": "/assets/images/testimonials/testimonial-7-kevin-aditya.png",
+    "jurusan": "S1 Ekonomi Pembangunan",
+    "universitas": "Universitas Diponegoro",
+    "testimonial": "CampusCoin bikin saya lebih produktif! Daripada buang waktu, saya ikut kompetisi yang bermanfaat dan dapat hadiah. Platform ini cocok banget buat mahasiswa yang punya ambisi."
+  },
+  {
+    "id": "T008",
+    "nama": "Dewi Ramadhani",
+    "foto": "/assets/images/testimonials/testimonial-8-dewi-ramadhani.png",
+    "jurusan": "S1 Ilmu Komunikasi",
+    "universitas": "Universitas Padjadjaran",
+    "testimonial": "Mulai dari talkshow sampai kegiatan sosial, acara CampusCoin kasih saya banyak pengalaman. Jaringan relasi yang saya dapat di sana benar-benar berharga!"
+  },
+  {
+    "id": "T009",
+    "nama": "Rizky Hidayat",
+    "foto": "/public/assets/images/testimonials/testimonial-9-rizky-hidayat.png",
+    "jurusan": "S1 Data Science",
+    "universitas": "Universitas Bina Nusantara",
+    "testimonial": "CampusCoin mengajarkan saya bahwa belajar, berkontribusi, dan mendapatkan penghargaan bisa dilakukan bersamaan. Seperti mengubah pengembangan diri jadi permainan yang menyenangkan."
+  }
+]
