@@ -81,11 +81,12 @@ export default function ArticleCard({ category = 'all' }: { category?: string })
                                 </div>
 
                                 <ReadFullArticleButton
-                                    href={`/article/${article.id}`}
+                                    href={`/knowledge-sharing/article/${article.slug}`}
                                     size="md"
                                 >
                                     Read Full Article
                                 </ReadFullArticleButton>
+
                             </CardBody>
                         </Card>
                     ))}

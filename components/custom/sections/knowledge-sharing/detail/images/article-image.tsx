@@ -16,6 +16,8 @@ export default function ArticleImage({
             <Image
                 src={imageUrl}
                 alt={alt}
+                width={'100%'}
+                height={400}
                 radius="lg"
                 className="w-full h-[280px] md:h-[400px] lg:h-[480px] object-cover"
             />

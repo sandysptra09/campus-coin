@@ -1,5 +1,6 @@
 export interface Article {
   id: number
+  slug: string
   nama_artikel: string
   deskripsi_singkat: string
   konten: string

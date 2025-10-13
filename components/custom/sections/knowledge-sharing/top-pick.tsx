@@ -42,8 +42,7 @@ export default function TopPick() {
                 <div className='flex flex-col gap-10'>
                     {loading
                         ? Array.from({ length: 3 }).map((_, i) => (
-                            <div key={i} className="flex flex-col md:flex-row gap-6">
-                                <Skeleton className="w-full md:w-[300px] h-[180px] rounded-lg" />
+                            <div key={i} className="flex flex-col md:flex-row gap-6 mt-6">
                                 <div className="flex-1 flex flex-col gap-3">
                                     <Skeleton className="h-5 w-32 rounded" />
                                     <Skeleton className="h-6 w-3/4 rounded" />
@@ -51,6 +50,7 @@ export default function TopPick() {
                                     <Skeleton className="h-4 w-5/6 rounded" />
                                     <Skeleton className="h-10 w-32 mt-2 rounded-lg" />
                                 </div>
+                                <Skeleton className="w-full md:w-[300px] h-[180px] rounded-lg" />
                             </div>
                         ))
                         : topPicks.map((article) => (
