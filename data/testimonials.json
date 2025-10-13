@@ -18,7 +18,7 @@
   {
     "id": "T003",
     "nama": "Ardian Nugroho",
-    "foto": "/assets/images/testimonials/testimonial-3-ardian-nugroho.png.png",
+    "foto": "/assets/images/testimonials/testimonial-3-ardian-nugroho.png",
     "jurusan": "D4 Manajemen Perkantoran Digital ",
     "universitas": "Universitas Airlangga",
     "testimonial": "Saya mendapatkan CampusCoin dari membagikan artikel dan membimbing junior. Sistem reward-nya bikin saya semangat untuk terus berkontribusi di komunitas mahasiswa."
@@ -66,7 +66,7 @@
   {
     "id": "T009",
     "nama": "Rizky Hidayat",
-    "foto": "/public/assets/images/testimonials/testimonial-9-rizky-hidayat.png",
+    "foto": "/assets/images/testimonials/testimonial-9-rizky-hidayat.png",
     "jurusan": "S1 Data Science",
     "universitas": "Universitas Bina Nusantara",
     "testimonial": "CampusCoin mengajarkan saya bahwa belajar, berkontribusi, dan mendapatkan penghargaan bisa dilakukan bersamaan. Seperti mengubah pengembangan diri jadi permainan yang menyenangkan."
