@@ -10,13 +10,14 @@ import {
 import { Skeleton, Card } from '@heroui/react';
 import EventCard from '../cards/event-card';
 import { getFeaturedEvents } from '@/lib/getFeaturedEvents';
+import { Event } from '@/interfaces/event';
 
 interface FeaturedEventCarouselProps {
     type: 'popular' | 'rewarding'
 }
 
 export default function FeaturedEventCarousel({ type }: FeaturedEventCarouselProps) {
-    const [events, setEvents] = useState<any[]>([])
+    const [events, setEvents] = useState<Event[]>([])
     const [loading, setLoading] = useState(true)
 
     useEffect(() => {
