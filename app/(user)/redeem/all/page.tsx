@@ -1,7 +1,7 @@
 "use client";
 
 import RewardsCarousel from "@/components/custom/carousels/reward-carousel";
-import SearchField from "@/components/custom/inputs/search-field";
+import SearchRedeemField from "@/components/custom/inputs/search-redeem-field";
 import { Button } from "@heroui/react";
 import React from "react";
 import { MdOutlineTune } from "react-icons/md";
@@ -46,7 +46,7 @@ export default function AllRedeemProductPage() {
         <Button className="my-auto bg-[#eeeeee] text-[#575757]" isIconOnly>
           <MdOutlineTune size={25} />
         </Button>
-        <SearchField placeholder="Search product, event, etc.." />
+        <SearchRedeemField />
       </div>
       <RewardsCarousel title="Event" item={redeemItems} />
       <RewardsCarousel title="Course" item={redeemItems} />

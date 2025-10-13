@@ -1,10 +1,13 @@
 import events from '../data/events.json'
+import { Event } from '@/interfaces/event'
 
-export async function getFeaturedEvents(type: 'popular' | 'rewarding') {
+export async function getFeaturedEvents(type: 'popular' | 'rewarding'): Promise<Event[]> {
   await new Promise((resolve) => setTimeout(resolve, 300))
 
+  const typedEvents = events as Event[]
+
   if (type === 'popular') {
-    return events
+    return typedEvents
       .filter((event) => event.status === 'upcoming' || event.status === 'ongoing')
       .sort((a, b) => {
         if (b.total_partisipasi !== a.total_partisipasi)
@@ -15,7 +18,7 @@ export async function getFeaturedEvents(type: 'popular' | 'rewarding') {
   }
 
   if (type === 'rewarding') {
-    return events
+    return typedEvents
       .filter((event) => event.status === 'upcoming' || event.status === 'ongoing')
       .sort((a, b) => b.total_koin - a.total_koin)
       .slice(0, 6)

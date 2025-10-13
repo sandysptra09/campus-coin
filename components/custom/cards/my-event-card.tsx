@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Card, CardBody, Image, Badge, Chip } from '@heroui/react';
+import { Card, CardBody, Image, Chip } from '@heroui/react';
 import { CalendarDays } from 'lucide-react';
 
 interface MyEventCardProps {
