@@ -16,7 +16,7 @@ export default function Testimonial() {
             Students who have used CampusCoin share their experiences.
           </p>
         </div>
-        <TestimonialCarousel isButtonInside={true} />
+        <TestimonialCarousel title='What Students Say About CampusCoin' isButtonInside />
       </div>
     </section>
   )
