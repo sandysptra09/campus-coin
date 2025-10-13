@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "title": "Google UX Design Certificate",
+      "meta": "Certification | Online | Professional",
+      "coins": 150,
+      "image": "https://placehold.jp/350x200.png",
+      "description": "Sertifikasi resmi dari Google untuk menguasai dasar desain UX dan prinsip desain berbasis pengguna.",
+      "provider": "Google",
+      "validity": "Lifetime",
+      "redeemable": true
+    },
+    {
+      "id": 2,
+      "title": "Coursera Subscription Discount",
+      "meta": "Certification | Online | Professional",
+      "coins": 75,
+      "image": "https://placehold.jp/350x200.png",
+      "description": "Diskon berlangganan Coursera untuk mendapatkan akses ke ratusan kursus bersertifikat internasional.",
+      "provider": "Coursera",
+      "validity": "3 bulan",
+      "redeemable": true
+    },
+    {
+      "id": 3,
+      "title": "Microsoft Certificate Discount",
+      "meta": "Certification | Online | Professional",
+      "coins": 100,
+      "image": "https://placehold.jp/350x200.png",
+      "description": "Potongan harga untuk mengikuti ujian sertifikasi resmi Microsoft seperti Azure Fundamentals.",
+      "provider": "Microsoft",
+      "validity": "Lifetime",
+      "redeemable": true
+    },
+    {
+      "id": 4,
+      "title": "IBM Data Analyst Certificate",
+      "meta": "Certification | Online | Professional",
+      "coins": 250,
+      "image": "https://placehold.jp/350x200.png",
+      "description": "Pelatihan dan sertifikasi analisis data dengan Python, SQL, dan Excel dari IBM.",
+      "provider": "IBM",
+      "validity": "Lifetime",
+      "redeemable": true
+    },
+    {
+      "id": 5,
+      "title": "AWS Cloud Practitioner Exam Voucher",
+      "meta": "Certification | Online | Professional",
+      "coins": 180,
+      "image": "https://placehold.jp/350x200.png",
+      "description": "Voucher ujian untuk mendapatkan sertifikasi AWS Certified Cloud Practitioner.",
+      "provider": "Amazon Web Services",
+      "validity": "1 tahun",
+      "redeemable": true
+    },
+    {
+      "id": 6,
+      "title": "Adobe Certified Professional Discount",
+      "meta": "Certification | Online | Professional",
+      "coins": 90,
+      "image": "https://placehold.jp/350x200.png",
+      "description": "Diskon untuk sertifikasi resmi Adobe Illustrator, Photoshop, atau Premiere Pro.",
+      "provider": "Adobe",
+      "validity": "Lifetime",
+      "redeemable": true
+    },
+    {
+      "id": 7,
+      "title": "Cisco Networking Essentials Certificate",
+      "meta": "Certification | Online | Intermediate",
+      "coins": 200,
+      "image": "https://placehold.jp/350x200.png",
+      "description": "Pelatihan jaringan dasar dan sertifikasi dari Cisco Networking Academy.",
+      "provider": "Cisco",
+      "validity": "2 tahun",
+      "redeemable": true
+    },
+    {
+      "id": 8,
+      "title": "LinkedIn Skill Assessment Badge",
+      "meta": "Certification | Online | Beginner",
+      "coins": 25,
+      "image": "https://placehold.jp/350x200.png",
+      "description": "Uji kemampuan dan dapatkan lencana keterampilan profesional di profil LinkedIn Anda.",
+      "provider": "LinkedIn Learning",
+      "validity": "Lifetime",
+      "redeemable": true
+    },
+    {
+      "id": 9,
+      "title": "Udemy Professional Certificate",
+      "meta": "Certification | Online | Intermediate",
+      "coins": 60,
+      "image": "https://placehold.jp/350x200.png",
+      "description": "Sertifikat penyelesaian kursus profesional pilihan Anda di platform Udemy.",
+      "provider": "Udemy",
+      "validity": "Lifetime",
+      "redeemable": true
+    },
+    {
+      "id": 10,
+      "title": "Oracle Java Foundations Certificate",
+      "meta": "Certification | Online | Intermediate",
+      "coins": 210,
+      "image": "https://placehold.jp/350x200.png",
+      "description": "Sertifikasi dasar Java yang menunjukkan kompetensi Anda dalam pemrograman berorientasi objek.",
+      "provider": "Oracle",
+      "validity": "Lifetime",
+      "redeemable": true
+    }
+  ]
+  

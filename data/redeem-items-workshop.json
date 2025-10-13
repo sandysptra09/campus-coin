@@ -1,0 +1,116 @@
+[
+    {
+      "id": 1,
+      "title": "IxDF UI/UX Workshop",
+      "meta": "Workshop | Online | Professional",
+      "coins": 25,
+      "image": "https://placehold.jp/350x200.png",
+      "description": "Praktik desain UI/UX dengan pendekatan user-centered, termasuk studi kasus dan hands-on prototyping.",
+      "duration": "3 jam",
+      "date": "2025-11-15",
+      "redeemable": true
+    },
+    {
+      "id": 2,
+      "title": "Figma Mastery: From Wireframe to Prototype",
+      "meta": "Workshop | Online | Intermediate",
+      "coins": 30,
+      "image": "https://placehold.jp/350x200.png",
+      "description": "Menguasai workflow Figma untuk membuat wireframe, komponen, dan prototype interaktif.",
+      "duration": "4 jam",
+      "date": "2025-11-20",
+      "redeemable": true
+    },
+    {
+      "id": 3,
+      "title": "Design Thinking Sprint",
+      "meta": "Workshop | Offline | Beginner",
+      "coins": 20,
+      "image": "https://placehold.jp/350x200.png",
+      "description": "Workshop intensif untuk memahami proses design thinking dan menerapkannya pada ide produk nyata.",
+      "duration": "6 jam",
+      "date": "2025-12-01",
+      "location": "Jakarta",
+      "redeemable": true
+    },
+    {
+      "id": 4,
+      "title": "Prototyping dengan Adobe XD",
+      "meta": "Workshop | Online | Intermediate",
+      "coins": 28,
+      "image": "https://placehold.jp/350x200.png",
+      "description": "Teknik prototyping, animasi micro-interactions, dan handoff ke developer menggunakan Adobe XD.",
+      "duration": "3.5 jam",
+      "date": "2025-11-28",
+      "redeemable": true
+    },
+    {
+      "id": 5,
+      "title": "Mobile UX Essentials",
+      "meta": "Workshop | Offline | Professional",
+      "coins": 40,
+      "image": "https://placehold.jp/350x200.png",
+      "description": "Prinsip desain untuk aplikasi mobile, pattern navigasi, dan optimasi pengalaman pengguna.",
+      "duration": "5 jam",
+      "date": "2025-12-05",
+      "location": "Bandung",
+      "redeemable": true
+    },
+    {
+      "id": 6,
+      "title": "Usability Testing Praktis",
+      "meta": "Workshop | Online | Intermediate",
+      "coins": 27,
+      "image": "https://placehold.jp/350x200.png",
+      "description": "Belajar merancang dan menjalankan usability test serta menganalisis hasil untuk perbaikan produk.",
+      "duration": "3 jam",
+      "date": "2025-11-18",
+      "redeemable": true
+    },
+    {
+      "id": 7,
+      "title": "Accessibility & Inclusive Design",
+      "meta": "Workshop | Online | Professional",
+      "coins": 33,
+      "image": "https://placehold.jp/350x200.png",
+      "description": "Praktik membuat produk digital yang dapat diakses semua orang (WCAG basics dan testing).",
+      "duration": "3 jam",
+      "date": "2025-12-10",
+      "redeemable": true
+    },
+    {
+      "id": 8,
+      "title": "Advanced UI Animation",
+      "meta": "Workshop | Online | Professional",
+      "coins": 35,
+      "image": "https://placehold.jp/350x200.png",
+      "description": "Membuat animasi UI halus dan meaningful menggunakan principle motion untuk meningkatkan UX.",
+      "duration": "4 jam",
+      "date": "2025-12-12",
+      "redeemable": true
+    },
+    {
+      "id": 9,
+      "title": "Rapid Prototyping Bootcamp",
+      "meta": "Workshop | Offline | Beginner",
+      "coins": 22,
+      "image": "https://placehold.jp/350x200.png",
+      "description": "Bootcamp singkat untuk menghasilkan prototype fungsi dalam satu hari (rapid iteration).",
+      "duration": "8 jam",
+      "date": "2025-12-20",
+      "location": "Yogyakarta",
+      "redeemable": true
+    },
+    {
+      "id": 10,
+      "title": "Research Methods for Product Designers",
+      "meta": "Workshop | Online | Intermediate",
+      "coins": 29,
+      "image": "https://placehold.jp/350x200.png",
+      "description": "Metode riset kualitatif & kuantitatif untuk menggali kebutuhan pengguna dan validasi ide.",
+      "duration": "3.5 jam",
+      "date": "2025-11-30",
+      "redeemable": true
+    }
+  ]
+  
