@@ -8,9 +8,10 @@ import EventAutocomplete from '../../autocomplete/event-autocomplete';
 import EventCard from '../../cards/event-card';
 import EventPagination from '../../paginations/event-pagination';
 import { getEvents } from '@/lib/getEvents';
+import { Event } from '@/interfaces/event';
 
 export default function AllEvent() {
-    const [events, setEvents] = useState<any[]>([])
+    const [events, setEvents] = useState<Event[]>([])
     const [loading, setLoading] = useState(true)
 
     const [search, setSearch] = useState('')
