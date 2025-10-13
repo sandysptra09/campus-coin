@@ -18,16 +18,16 @@ export default function AllArticleTab() {
             }}
         >
             <Tab key="all" title="All">
-                <ArticleCard />
+                <ArticleCard category='all' />
             </Tab>
             <Tab key="career" title="Career">
-                <ArticleCard />
+                <ArticleCard category='career' />
             </Tab>
             <Tab key="education" title="Education">
-                <ArticleCard />
+                <ArticleCard category='education' />
             </Tab>
             <Tab key="sustainability" title="Sustainability">
-                <ArticleCard />
+                <ArticleCard category='sustainability' />
             </Tab>
         </Tabs>
     )

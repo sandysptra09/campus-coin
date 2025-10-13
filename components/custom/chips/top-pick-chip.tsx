@@ -20,7 +20,7 @@ export default function TopPickChip({
             base: 'border border-primary text-primary text-base font-medium px-4 py-1 bg-transparent',
         },
         secondary: {
-            base: 'bg-white text-secondary text-base font-medium px-4 py-1 border-none',
+            base: 'bg-white text-secondary text-base font-medium px-4 py-1 border-none capitalize',
         },
     };
 
