@@ -2,16 +2,28 @@
 
 import React from 'react'
 
-import { Card } from '@heroui/react';
+import { Card, Button } from '@heroui/react';
 import MyArticleCard from '../../cards/my-article-card';
+import Link from 'next/link';
 
 export default function MyArticle() {
     return (
         <section className='max-w-6xl mx-auto px-6 md:px-12 lg:px-20 py-2 mt-8'>
             <Card shadow='sm' radius='lg' className='p-6 md:p-8'>
-                <h3 className='text-base md:text-[25px] font-semibold text-secondary mb-6'>
-                    My Article
-                </h3>
+                <div className='flex flex-col sm:flex-row justify-between items-center mb-2'>
+                    <h3 className='text-base md:text-[25px] font-semibold text-secondary mb-6'>
+                        My Article
+                    </h3>
+                    <Button
+                        color="primary"
+                        variant="solid"
+                        as={Link}
+                        href='/user/articles/post-article'
+                        className='font-medium'
+                    >
+                        Tulis Artikel
+                    </Button>
+                </div>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
                     <MyArticleCard
                         title='How to Build Better Habits'

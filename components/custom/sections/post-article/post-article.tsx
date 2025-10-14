@@ -2,6 +2,7 @@
 
 import React, { useRef, useState } from 'react'
 import { Input, Textarea, Select, SelectItem, Button, Card, addToast } from '@heroui/react'
+import Link from 'next/link'
 import { SerializedEditorState } from 'lexical'
 import { Editor } from '@/components/blocks/editor-x/editor'
 import { Label } from '@/components/ui/label'
@@ -162,25 +163,36 @@ export default function PostArticle() {
                     </div>
                 </div>
 
-                <div className="flex flex-col sm:flex-row justify-end gap-3 pt-6">
+                <div className="flex flex-col sm:flex-row justify-between items-center gap-3 pt-6">
                     <Button
-                        color="secondary"
-                        variant="flat"
-                        onPress={() => handleSubmit(false)}
-                        isLoading={isSavingDraft}
-                        isDisabled={isPublishing}
-                        className="text-secondary"
+                        as={Link}
+                        href='/user/profile'
+                        color="default"
+                        variant="bordered"
+                        className="text-secondary order-2 sm:order-1 w-full sm:w-auto"
                     >
-                        Simpan Draft
+                        Kembali
                     </Button>
-                    <Button
-                        color="primary"
-                        onPress={() => handleSubmit(true)}
-                        isLoading={isPublishing}
-                        isDisabled={isSavingDraft}
-                    >
-                        Publikasikan
-                    </Button>
+                    <div className="flex flex-col sm:flex-row justify-end gap-3 w-full sm:w-auto order-1 sm:order-2">
+                        <Button
+                            color="secondary"
+                            variant="flat"
+                            onPress={() => handleSubmit(false)}
+                            isLoading={isSavingDraft}
+                            isDisabled={isPublishing}
+                            className="text-secondary"
+                        >
+                            Simpan Draft
+                        </Button>
+                        <Button
+                            color="primary"
+                            onPress={() => handleSubmit(true)}
+                            isLoading={isPublishing}
+                            isDisabled={isSavingDraft}
+                        >
+                            Publikasikan
+                        </Button>
+                    </div>
                 </div>
             </Card>
         </section>
