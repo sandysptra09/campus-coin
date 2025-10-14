@@ -8,6 +8,7 @@ import CertificateCard from '../../cards/certificate-card';
 export default function MyProfile() {
     const user = {
         nama: 'Ghassan Ariq Muzakki',
+        username: 'malixa_ken',
         nim: '123456789',
         universitas: 'Univrersitas Pendidikan Indonesia',
         jurusan: 'S1 Rekayasa Perangkat Lunak',

@@ -11,13 +11,13 @@ export default function Hero() {
             <Card shadow="sm" radius="lg" className="p-6 md:p-8 flex flex-col md:flex-row items-center md:items-start justify-between gap-6 md:gap-8">
                 <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6 text-center sm:text-left">
                     <Avatar
-                        src="https://i.pravatar.cc/100?img=3"
+                        src="https://i.pravatar.cc/150?img=1"
                         size="lg"
                         className="border border-default shadow-sm w-20 h-20"
                     />
                     <div>
                         <h2 className="text-xl md:text-[36px] text-secondary font-semibold">
-                            Welcome back, <span className="text-primary">Hercule Poirot!</span>
+                            Welcome back, <span className="text-primary">Ghassan Ariq Muzakki!</span>
                         </h2>
                         <p className="text-base text-secondary md:text-[21px] font-medium tracking-wide">
                             Keep up the spirit to collect coins and level up
