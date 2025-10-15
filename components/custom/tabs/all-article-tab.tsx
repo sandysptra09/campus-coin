@@ -29,6 +29,9 @@ export default function AllArticleTab() {
             <Tab key="sustainability" title="Sustainability">
                 <ArticleCard category='sustainability' />
             </Tab>
+            <Tab key="following" title="Following">
+                <ArticleCard category='following' />
+            </Tab>
         </Tabs>
     )
 }

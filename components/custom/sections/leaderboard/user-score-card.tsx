@@ -12,8 +12,8 @@ export default function UserScoreCard() {
           <div className="flex gap-3">
             <p className="font-bold">#57</p>
             <div className="flex flex-col">
-              <p className="text-base font-semibold">John Doe</p>
-              <p className="text-sm">johndoe@ace.id</p>
+              <p className="text-base font-semibold text-nowrap">Ghassan Ariq Muzakki</p>
+              <p className="text-sm">ghassan@upi.edu</p>
             </div>
             <Chip radius="full" color="primary">
               You&apos;re here
