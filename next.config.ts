@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { i18n } from './next-i18next.config';
 
 const nextConfig: NextConfig = {
   images: {
@@ -8,7 +9,9 @@ const nextConfig: NextConfig = {
         hostname: '**',
       }
     ]
-  }
+  },
+  i18n,
+  reactStrictMode: true,
 };
 
 export default nextConfig;

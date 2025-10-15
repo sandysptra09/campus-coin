@@ -4,13 +4,17 @@ import { Form } from "@heroui/react";
 import TextField from "../inputs/text-field";
 import { Button } from "@/components/ui/button";
 
+import { useTranslation } from "next-i18next";
+
+const { t } = useTranslation("common");
+
 export default function ForgetPasswordForm() {
     return (
         <Form className="w-full flex flex-col gap-6">
             <div className="flex flex-col items-center gap-2 text-center">
-                <h1 className="text-xl font-bold">Forget Password</h1>
+                <h1 className="text-xl font-bold">{t("Forgot Password")}</h1>
                 <p className="text-muted-foreground text-sm text-balance font-medium ">
-                    Enter your university email address to reset your password.
+                    {t("Enter your university email address to reset your password.")}
                 </p>
             </div>
             <div className="w-full grid gap-6">
