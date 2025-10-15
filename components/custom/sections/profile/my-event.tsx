@@ -18,19 +18,19 @@ export default function MyEvent() {
                             title='Campus Tech Expo 2025'
                             date='Oct 10, 2025'
                             status='Joined'
-                            image='https://placehold.jp/100x130.png'
+                            image='/assets/images/events/my-events/campus-tech.png'
                         />
                         <MyEventCard
                             title='AI Hackathon'
                             date='Nov 2, 2025'
                             status='Completed'
-                            image='https://placehold.jp/100x130.png'
+                            image='/assets/images/events/my-events/ai-hackathon.png'
                         />
                         <MyEventCard
                             title='Community Cleanup Day'
-                            date='Dec 14, 2025'
-                            status='Upcoming'
-                            image='https://placehold.jp/100x130.png'
+                            date='19 Januari 2025'
+                            status='Completed'
+                            image='/assets/images/events/my-events/community-cleanup.png'
                         />
                     </div>
                 </div>

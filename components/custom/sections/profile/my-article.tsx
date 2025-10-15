@@ -27,21 +27,21 @@ export default function MyArticle() {
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
                     <MyArticleCard
                         title='How to Build Better Habits'
-                        image='https://placehold.jp/100x100.png'
+                        image='/assets/images/articles/my-articles/how-build-better.png'
                         views={61}
                         likes={49}
                         comments={20}
                     />
                     <MyArticleCard
                         title='The Art of Focus and Productivity'
-                        image='https://placehold.jp/100x100.png'
+                        image='/assets/images/articles/my-articles/the-art-of-focus.png'
                         views={74}
                         likes={58}
                         comments={30}
                     />
                     <MyArticleCard
                         title='Exploring Mindfulness in Daily Life'
-                        image='https://placehold.jp/100x100.png'
+                        image='/assets/images/articles/my-articles/exploring-mindfulness.png'
                         views={89}
                         likes={64}
                         comments={40}

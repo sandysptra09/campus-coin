@@ -14,24 +14,24 @@ export default function MyReward() {
                 </h3>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
                     <MyRewardCard
-                        title='Microsoft Certification'
-                        image='https://placehold.jp/300x200.png'
+                        title='Web Development Competition Certificate'
+                        image='/assets/images/rewards/my-rewards/web-development.png'
                         source='Reedem Store'
-                        date='10 Oktober 2025'
+                        date='22 Desember 2024'
                         status='Claimed'
                     />
                     <MyRewardCard
-                        title='Microsoft Certification'
-                        image='https://placehold.jp/300x200.png'
+                        title='React Mastery Course'
+                        image='/assets/images/rewards/my-rewards/react-mastery.png'
                         source='Reedem Store'
-                        date='10 Oktober 2025'
+                        date='5 Maret 2025'
                         status='Claimed'
                     />
                     <MyRewardCard
-                        title='Microsoft Certification'
-                        image='https://placehold.jp/300x200.png'
-                        source='Reedem Store'
-                        date='10 Oktober 2025'
+                        title='Community Contribution Certificate'
+                        image='/assets/images/rewards/my-rewards/community-cleanup.png'
+                        source='Event — Community Cleanup Day'
+                        date='19 Januari 2025'
                         status='Claimed'
                     />
                 </div>
