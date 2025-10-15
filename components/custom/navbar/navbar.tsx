@@ -133,7 +133,7 @@ export default function CampusCoinNavbar() {
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
               className="w-full"
-              color="foreground"
+              color={pathname == `${item.url}` ? "primary" : "foreground"}
               href={item.url}
               size="lg"
             >

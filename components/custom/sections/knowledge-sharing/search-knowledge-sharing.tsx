@@ -7,7 +7,7 @@ import { SearchIcon } from "@/public/assets/icons/search-icon";
 
 export default function SearchKnowledgeSharing() {
   return (
-    <div className="w-full md:w-[300px] lg:w-[450px] mx-auto">
+    <div className="w-full md:w-[300px] lg:w-[450px] mx-auto px-5">
       <Input
         type="search"
         isClearable
