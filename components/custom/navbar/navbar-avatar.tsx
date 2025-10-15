@@ -35,7 +35,7 @@ export default function NavbarAvatar() {
             color="secondary"
             className="text-base w-full"
           >
-            0 coins
+            1240 coins
           </Link>
         </DropdownItem>
         <DropdownItem
