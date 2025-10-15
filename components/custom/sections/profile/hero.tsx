@@ -27,7 +27,7 @@ export default function Hero() {
             <p className="text-base text-secondary md:text-[21px] font-medium tracking-wide">
               Keep up the spirit to collect coins and level up
             </p>
-            <div className="flex gap-5 mx-auto mt-5">
+            <div className="flex justify-center sm:justify-start gap-5 my-8 sm:mt-5">
               <div className="flex flex-col gap-1">
                 <p className="font-semibold text-center text-base text-muted-foreground">
                   1.8k
