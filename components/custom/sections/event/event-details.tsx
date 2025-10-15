@@ -141,7 +141,7 @@ export default function EventDetails({ event }: EventCardProps) {
                   <div className="flex justify-end pt-3">
                     <Button
                       as={Link}
-                      href={event.link_event}
+                      href={'/event'}
                       isExternal
                       color="primary"
                       variant="solid"
