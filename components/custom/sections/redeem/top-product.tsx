@@ -15,7 +15,7 @@ export default function TopProduct() {
 
       <article className="mt-8 rounded-2xl border bg-card p-6 shadow-sm">
         <Image
-          src="https://placehold.jp/350x200.png"
+          src="https://media.licdn.com/dms/image/v2/C4D12AQG_U1oKc3kyHg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1520216969279?e=2147483647&v=beta&t=3W-9NArIqQgOFYRwR65vzbiEKJsHOrqUvQ1WGU620fE"
           alt="Certification"
           width={2000}
           // height={300}

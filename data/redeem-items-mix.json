@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "title": "Google UX Design Certificate Discount",
+    "meta": "Certification | Online | Professional",
+    "coins": 150,
+    "image": "https://miro.medium.com/v2/1*erltA3agMq9uHYzHMG_ifw.png",
+    "description": "Sertifikasi resmi dari Google untuk menguasai dasar desain UX dan prinsip desain berbasis pengguna.",
+    "provider": "Google",
+    "validity": "Lifetime",
+    "redeemable": true
+  },
+  {
+    "id": 2,
+    "title": "Career Growth in Tech Industry",
+    "meta": "Webinar | Online | Intermediate",
+    "coins": 25,
+    "image": "https://img.freepik.com/free-vector/target-achievement-teamwork-business-concept_107791-16.jpg",
+    "description": "Diskusi mendalam tentang tren karier di dunia teknologi dan cara membangun personal branding yang kuat.",
+    "speaker": "Budi Santoso",
+    "date": "2025-11-22",
+    "duration": "1.5 jam",
+    "redeemable": true
+  },
+  {
+    "id": 3,
+    "title": "Design Thinking Sprint",
+    "meta": "Workshop | Offline | Beginner",
+    "coins": 20,
+    "image": "https://img.freepik.com/free-photo/ideas-idea-vision-design-plan-objective-mission-concept_53876-167112.jpg",
+    "description": "Workshop intensif untuk memahami proses design thinking dan menerapkannya pada ide produk nyata.",
+    "duration": "6 jam",
+    "date": "2025-12-01",
+    "location": "Jakarta",
+    "redeemable": true
+  },
+  {
+    "id": 4,
+    "title": "Prototyping with Adobe XD",
+    "meta": "Workshop | Online | Intermediate",
+    "coins": 28,
+    "image": "https://img.freepik.com/free-vector/flat-design-web-designer-landing-page_23-2150389761.jpg",
+    "description": "Teknik prototyping, animasi micro-interactions, dan handoff ke developer menggunakan Adobe XD.",
+    "duration": "3.5 jam",
+    "date": "2025-11-28",
+    "redeemable": true
+  },
+  {
+    "id": 5,
+    "title": "AWS Cloud Practitioner Exam Voucher",
+    "meta": "Certification | Online | Professional",
+    "coins": 180,
+    "image": "https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/certification/approved/images/certification-badges/clf-badge-resized.2fdbed6fe7b39cf6cef5063f283ddd689cc78caa.png",
+    "description": "Voucher ujian untuk mendapatkan sertifikasi AWS Certified Cloud Practitioner.",
+    "provider": "Amazon Web Services",
+    "validity": "1 tahun",
+    "redeemable": true
+  },
+  {
+    "id": 6,
+    "title": "Adobe Certified Professional Discount",
+    "meta": "Certification | Online | Professional",
+    "coins": 90,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiy0KdcXZL9u8YmNMh3ly_1vraSN2th3wpZA&s",
+    "description": "Diskon untuk sertifikasi resmi Adobe Illustrator, Photoshop, atau Premiere Pro.",
+    "provider": "Adobe",
+    "validity": "Lifetime",
+    "redeemable": true
+  },
+  {
+    "id": 7,
+    "title": "Cisco Networking Essentials Certificate",
+    "meta": "Certification | Online | Intermediate",
+    "coins": 200,
+    "image": "https://images.credly.com/images/d7f73336-9adb-4833-a602-761837a33ba3/twitter_thumb_201604_NetworkingEssentials-01.png",
+    "description": "Pelatihan jaringan dasar dan sertifikasi dari Cisco Networking Academy.",
+    "provider": "Cisco",
+    "validity": "2 tahun",
+    "redeemable": true
+  },
+  {
+    "id": 8,
+    "title": "Advanced UI Animation",
+    "meta": "Workshop | Online | Professional",
+    "coins": 35,
+    "image": "https://img.freepik.com/free-vector/retro-user-interface-screens-collection_107791-34469.jpg",
+    "description": "Membuat animasi UI halus dan meaningful menggunakan principle motion untuk meningkatkan UX.",
+    "duration": "4 jam",
+    "date": "2025-12-12",
+    "redeemable": true
+  },
+  {
+    "id": 9,
+    "title": "Rapid Prototyping Bootcamp",
+    "meta": "Workshop | Offline | Beginner",
+    "coins": 22,
+    "image": "https://img.freepik.com/free-vector/startup-metaphor-flat-icon_1262-18784.jpg",
+    "description": "Bootcamp singkat untuk menghasilkan prototype fungsi dalam satu hari (rapid iteration).",
+    "duration": "8 jam",
+    "date": "2025-12-20",
+    "location": "Yogyakarta",
+    "redeemable": true
+  },
+  {
+    "id": 10,
+    "title": "Building a Portfolio for Designers",
+    "meta": "Webinar | Online | Professional",
+    "coins": 30,
+    "image": "https://img.freepik.com/free-vector/flat-design-portfolio-template_23-2151095677.jpg",
+    "description": "Panduan membuat portofolio desain yang efektif untuk menarik perhatian perekrut dan klien.",
+    "speaker": "Kevin Arya",
+    "date": "2025-12-15",
+    "duration": "2 jam",
+    "redeemable": true
+  }
+]

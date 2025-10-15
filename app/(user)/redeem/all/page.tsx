@@ -6,38 +6,9 @@ import { Button } from "@heroui/react";
 import React from "react";
 import { MdOutlineTune } from "react-icons/md";
 
-const redeemItems = [
-  {
-    id: 1,
-    title: "IxDF UI/UX Workshop",
-    meta: "Workshop | Online | Professional",
-    coins: 25,
-  },
-  {
-    id: 2,
-    title: "101 Softskills Webinar",
-    meta: "Webinar | Online | Professional",
-    coins: 20,
-  },
-  {
-    id: 3,
-    title: "Coursera Subscription Discount",
-    meta: "Certification | Professional",
-    coins: 75,
-  },
-  {
-    id: 4,
-    title: "Microsoft Certificate Discount",
-    meta: "Certification | Professional",
-    coins: 100,
-  },
-  {
-    id: 5,
-    title: "IBM Certificate Discount",
-    meta: "Certification | Professional",
-    coins: 250,
-  },
-];
+import redeemItemsEvent from "@/data/redeem-items-webinar.json"
+import redeemItemsWorkshop from "@/data/redeem-items-workshop.json"
+import redeemItemsCertification from "@/data/redeem-items-certificate.json"
 
 export default function AllRedeemProductPage() {
   return (
@@ -48,9 +19,9 @@ export default function AllRedeemProductPage() {
         </Button>
         <SearchRedeemField />
       </div>
-      <RewardsCarousel title="Event" item={redeemItems} />
-      <RewardsCarousel title="Course" item={redeemItems} />
-      <RewardsCarousel title="Certifications" item={redeemItems} />
+      <RewardsCarousel title="Event" item={redeemItemsEvent} />
+      <RewardsCarousel title="Workshop" item={redeemItemsWorkshop} />
+      <RewardsCarousel title="Certifications" item={redeemItemsCertification} />
     </div>
   );
 }
