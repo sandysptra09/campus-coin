@@ -15,6 +15,7 @@ interface EventCardProps {
         tanggal_mulai_event: string
         jam: string
         lokasi: string
+        detail_lokasi: string
         total_koin: number
     }
 }
@@ -40,9 +41,9 @@ export default function EventCard({ event }: EventCardProps) {
                 </p>
                 <div className="flex items-center gap-3 text-sm text-secondary font-medium">
                     <Tooltip content="Location">
-                        <span className="flex items-center gap-1">
+                        <span className="flex items-center gap-1 capitalize">
                             <LocationIcon />
-                            {event.lokasi}
+                            {event.detail_lokasi}
                         </span>
                     </Tooltip>
 

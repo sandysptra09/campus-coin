@@ -43,7 +43,7 @@ export default function EventAutocomplete({ type, location, status, onFilterChan
                 isClearable
             >
                 <AutocompleteItem key="online">Online</AutocompleteItem>
-                <AutocompleteItem key="campus">Campus</AutocompleteItem>
+                <AutocompleteItem key="offline">Offline</AutocompleteItem>
             </Autocomplete>
 
             <Autocomplete
