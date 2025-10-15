@@ -16,9 +16,9 @@ export default function EventHighlightCarousel() {
         {
             title: "Tech Innovation Seminar",
             description:
-                "Explore the future of digital transformation with industry experts.",
-            date: "Sept 30, 2025",
-            image: "https://placehold.jp/350x200.png",
+                "Jelajahi masa depan transformasi digital bersama para ahli industri.",
+            date: "30 September 2025",
+            image: "/assets/images/events/event-highlights/tech-innovation.png",
             status: "open",
         },
         {
@@ -26,22 +26,22 @@ export default function EventHighlightCarousel() {
             description:
                 "Contribute to society and gain valuable experiences outside class.",
             date: "Oct 12, 2025",
-            image: "https://placehold.jp/350x200.png",
-            status: "coming-soon",
+            image: "/assets/images/events/event-highlights/community-service.png",
+            status: "open",
         },
         {
             title: "Coding Hackathon 2025",
             description:
-                "Challenge yourself in a 24-hour coding marathon with prizes.",
-            date: "Sept 30, 2025",
-            image: "https://placehold.jp/350x200.png",
-            status: "open",
+                "Tantang dirimu dalam maraton coding 24 jam dengan hadiah.",
+            date: "25 Desember, 2025",
+            image: "/assets/images/events/event-highlights/coding-hackathon.png",
+            status: "coming-soon",
         },
         {
-            title: "Career Festival 2025",
-            description: "Connect with companies and discover future opportunities.",
-            date: "Nov 5, 2025",
-            image: "https://placehold.jp/350x200.png",
+            title: "Tech Career Festival 2025",
+            description: "Festival karier yang mempertemukan mahasiswa dan perusahaan teknologi terkemuka di Indonesia.",
+            date: "12 November 2025",
+            image: "/assets/images/events/tech-career-festival-2025.png",
             status: "coming-soon",
         },
     ];
