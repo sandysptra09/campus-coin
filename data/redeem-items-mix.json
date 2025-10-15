@@ -11,7 +11,7 @@
     "redeemable": true
   },
   {
-    "id": 2,
+    "id": 12,
     "title": "Career Growth in Tech Industry",
     "meta": "Webinar | Online | Intermediate",
     "coins": 25,
@@ -23,7 +23,7 @@
     "redeemable": true
   },
   {
-    "id": 3,
+    "id": 23,
     "title": "Design Thinking Sprint",
     "meta": "Workshop | Offline | Beginner",
     "coins": 20,
@@ -35,7 +35,7 @@
     "redeemable": true
   },
   {
-    "id": 4,
+    "id": 24,
     "title": "Prototyping with Adobe XD",
     "meta": "Workshop | Online | Intermediate",
     "coins": 28,
@@ -79,7 +79,7 @@
     "redeemable": true
   },
   {
-    "id": 8,
+    "id": 28,
     "title": "Advanced UI Animation",
     "meta": "Workshop | Online | Professional",
     "coins": 35,
@@ -90,7 +90,7 @@
     "redeemable": true
   },
   {
-    "id": 9,
+    "id": 29,
     "title": "Rapid Prototyping Bootcamp",
     "meta": "Workshop | Offline | Beginner",
     "coins": 22,
@@ -102,7 +102,7 @@
     "redeemable": true
   },
   {
-    "id": 10,
+    "id": 20,
     "title": "Building a Portfolio for Designers",
     "meta": "Webinar | Online | Professional",
     "coins": 30,
