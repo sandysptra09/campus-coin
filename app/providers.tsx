@@ -51,7 +51,7 @@ export function useSession() {
 export function Providers({ children }: { children: React.ReactNode }) {
   return (
     <HeroUIProvider>
-      <ToastProvider />
+      <ToastProvider placement="top-center" toastOffset={40} />
       <SessionProvider>{children}</SessionProvider>
     </HeroUIProvider>
   );
