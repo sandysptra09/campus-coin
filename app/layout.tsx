@@ -8,7 +8,7 @@ const quicksand = Quicksand({
 });
 
 export const metadata: Metadata = {
-  title: "Campus Coin",
+  title: "CampusCoin",
   description: "Empowering students, building future.",
   icons: {
     icon: "/favicon.ico",

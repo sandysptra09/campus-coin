@@ -58,7 +58,7 @@ export default function EventDetails({ event }: EventCardProps) {
         View Details
       </Button>
 
-      <Modal isOpen={isOpen} onOpenChange={onOpenChange} size="3xl">
+      <Modal isOpen={isOpen} onOpenChange={onOpenChange} scrollBehavior="inside" size="3xl">
         <ModalContent className="p-4">
           {(onClose) => (
             <>
@@ -89,7 +89,7 @@ export default function EventDetails({ event }: EventCardProps) {
                   </p>
 
                   <p className="flex text-sm text-gray-600 font-medium gap-2">
-                    <BiCalendarWeek className="my-auto" size={15}/>
+                    <BiCalendarWeek className="my-auto" size={15} />
                     {event.tanggal_mulai_event} - {event.tanggal_berakhir_event} |{" "}
                     {event.jam}
                   </p>

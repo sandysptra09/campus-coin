@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react'
+import React, { useRef } from 'react'
 
 import HeroHome from '../../banners/hero-home';
 import { Button } from '@heroui/react';
@@ -8,6 +8,14 @@ import { ArrowDown } from 'lucide-react';
 import WhyUs from './why-us';
 
 export default function Hero() {
+    const whyUsRef = useRef<HTMLDivElement | null>(null);
+
+    const scrollToWhyUs = () => {
+        if (whyUsRef.current) {
+            whyUsRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return (
         <div style={{
             background: 'linear-gradient(to bottom, #F6F6F6 65%, #FFFFFF 65%)',
@@ -34,18 +42,19 @@ export default function Hero() {
                         <HeroHome />
                     </div>
                 </div>
-                <div className="flex justify-start mt-8 ml-36">
+                <div className="flex justify-start mt-8 ml-34 md:ml-48">
                     <Button
                         isIconOnly
                         color="default"
                         radius="full"
                         size="md"
                         className="bg-black"
+                        onPress={scrollToWhyUs}
                     >
                         <ArrowDown className="text-white" size={20} />
                     </Button>
                 </div>
-                <WhyUs />
+                <WhyUs ref={whyUsRef} />
             </section>
         </div>
     )

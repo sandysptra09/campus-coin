@@ -1,10 +1,10 @@
 'use client';
 
-import React from 'react'
+import React, { forwardRef } from 'react'
 
 import WhyUsImage from '../../images/why-us-image';
 
-export default function WhyUs() {
+const WhyUs = forwardRef<HTMLDivElement>((_, ref) => {
     const reasons = [
         {
             imageUrl: '/assets/images/motivation.png',
@@ -29,7 +29,7 @@ export default function WhyUs() {
     ];
 
     return (
-        <section className='bg-white mt-20 py-20 rounded-xl border shadow-md'>
+        <section ref={ref} className='bg-white mt-20 py-20 rounded-xl border shadow-md'>
             <div className='mx-auto px-6 md:px-12 lg:px-20'>
                 <div className="text-left mb-4">
                     <p className="text-md text-primary md:text-[29px] uppercase font-medium">
@@ -60,4 +60,7 @@ export default function WhyUs() {
             </div>
         </section>
     )
-}
+});
+
+WhyUs.displayName = 'WhyUs';
+export default WhyUs;

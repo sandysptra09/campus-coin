@@ -76,10 +76,10 @@ export default function PostArticle() {
         })
 
         addToast({
-            title: publish ? 'Artikel Dipublikasikan' : 'Draft Disimpan',
+            title: publish ? 'Published Article' : 'Draft Saved',
             description: publish
-                ? 'Artikelmu telah berhasil dipublikasikan 🎉'
-                : 'Artikelmu berhasil disimpan sebagai draft.',
+                ? 'Your article has been successfully published.'
+                : 'Your article has been successfully saved as a draft.',
             color: 'success',
             timeout: 3000,
         })
@@ -97,17 +97,17 @@ export default function PostArticle() {
         <section className="max-w-6xl mx-auto px-4 sm:px-8 md:px-12 lg:px-20 py-12 md:py-20 space-y-10">
             <div>
                 <h1 className="text-xl md:text-[48px] text-secondary font-semibold mb-2">
-                    Bagikan Pengetahuanmu!
+                    Share your knowledge!
                 </h1>
                 <p className="text-secondary max-w-2xl">
-                    Tulis artikel untuk berbagi pengalaman, ide, dan inspirasi dengan komunitas lainnya.
+                    Write articles to share your experiences, ideas, and inspiration with other communities.
                 </p>
             </div>
 
             <Card shadow="sm" radius="lg" className="p-8 space-y-8">
                 <Input
-                    label="Judul Artikel"
-                    placeholder="Masukkan judul artikelmu..."
+                    label="Article Title"
+                    placeholder="Enter your article title..."
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
                     variant="bordered"
@@ -115,8 +115,8 @@ export default function PostArticle() {
                 />
 
                 <Textarea
-                    label="Deskripsi Singkat"
-                    placeholder="Tuliskan ringkasan singkat tentang artikelmu..."
+                    label="Short Description"
+                    placeholder="Write a short description of your article..."
                     value={desc}
                     onChange={(e) => setDesc(e.target.value)}
                     variant="bordered"
@@ -124,7 +124,7 @@ export default function PostArticle() {
                 />
 
                 <div className="space-y-2">
-                    <Label className="text-sm font-medium text-gray-600">Gambar Artikel</Label>
+                    <Label className="text-sm font-medium text-gray-600">Cover Image</Label>
                     <Input
                         type="file"
                         accept="image/*"
@@ -134,15 +134,15 @@ export default function PostArticle() {
                     />
                     {image && (
                         <p className="text-xs text-secondary mt-1">
-                            File dipilih:{' '}
+                            Selected Image:{' '}
                             <span className="font-medium text-secondary">{image.name}</span>
                         </p>
                     )}
                 </div>
 
                 <Select
-                    label="Kategori"
-                    placeholder="Pilih kategori artikel"
+                    label="Category"
+                    placeholder="Select a category..."
                     variant="bordered"
                     selectedKeys={category ? [category] : []}
                     onSelectionChange={(keys) => setCategory(Array.from(keys)[0] as string)}
@@ -153,7 +153,7 @@ export default function PostArticle() {
                 </Select>
 
                 <div className="space-y-2 overflow-x-auto overflow-hidden">
-                    <Label className="text-sm font-medium text-gray-600">Konten Artikel</Label>
+                    <Label className="text-sm font-medium text-gray-600">Content</Label>
                     <div className="border border-gray-200 rounded-lg overflow-hidden">
                         <Editor
                             key={editorKey}
@@ -171,7 +171,7 @@ export default function PostArticle() {
                         variant="bordered"
                         className="text-secondary order-2 sm:order-1 w-full sm:w-auto"
                     >
-                        Kembali
+                        Back
                     </Button>
                     <div className="flex flex-col sm:flex-row justify-end gap-3 w-full sm:w-auto order-1 sm:order-2">
                         <Button
@@ -182,7 +182,7 @@ export default function PostArticle() {
                             isDisabled={isPublishing}
                             className="text-secondary"
                         >
-                            Simpan Draft
+                            Save as Draft
                         </Button>
                         <Button
                             color="primary"
@@ -190,7 +190,7 @@ export default function PostArticle() {
                             isLoading={isPublishing}
                             isDisabled={isSavingDraft}
                         >
-                            Publikasikan
+                            Publish
                         </Button>
                     </div>
                 </div>

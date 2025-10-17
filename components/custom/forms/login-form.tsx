@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-import { Form } from "@heroui/react";
+import { Form, addToast } from "@heroui/react";
 import TextField from "../inputs/text-field";
 import PasswordField from "../inputs/password-field";
 import { Button } from "@/components/ui/button";
@@ -17,9 +17,25 @@ export default function LoginForm() {
   const handleLogin = async (e: any) => {
     e.preventDefault();
 
-    login();
+    try {
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+      login();
+      addToast({
+        title: "Success",
+        description: "You have successfully logged in.",
+        color: "success",
+        timeout: 3000,
+      });
+      router.push("/");
+    } catch (error) {
+      addToast({
+        title: "Error",
+        description: "An error occurred while logging in.",
+        color: "danger",
+        timeout: 3000,
+      });
+    }
 
-    router.push("/");
   };
   /* eslint-enable @typescript-eslint/no-explicit-any */
 
