@@ -1,6 +1,6 @@
 import ReactPlayer from 'react-player';
 
-const videoUrl = '';
+const videoUrl = 'https://youtu.be/4ZwC2oAGpsM';
 
 export default function HowItWorksVideoPlayer() {
     return (
